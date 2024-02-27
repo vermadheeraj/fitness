@@ -1,0 +1,342 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+
+
+/* home style */
+
+.untree_co-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.category {
+  gap: 10px;
+  margin: 0 50px;
+  text-decoration: none;
+}
+
+h3 {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+span {
+  color: gray;
+}
+
+.col-sm-6 {
+  padding: 10px;
+}
+
+
+.col-sm-6:hover {
+  background: #e2b451;
+
+}
+
+.box_color {
+  padding-top: 12px;
+}
+
+
+.services-section {
+  padding-top: 20px;
+  background: whitesmoke;
+}
+
+.col-lg-4 {
+  padding: 80px 50px;
+  margin: auto;
+}
+
+.col-lg-6 {
+  margin-top: -80px;
+}
+
+.fs-6 {
+  margin-top: -3px;
+}
+
+i {
+  padding: 12px;
+  margin: 0 5px;
+  font-size: 18px;
+  color: black;
+}
+
+i:hover {
+  background: rgb(190, 161, 108);
+  border-radius: 20px;
+}
+
+
+/* date and time */
+
+#schedule {
+  padding: 0px 0px 140px 0px;
+  background-image: url(../public/image/banner4.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 80px;
+}
+
+.section-heading p {
+  color: whitesmoke;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  text-align: center;
+}
+
+#schedule .filters ul li {
+  list-style: none;
+  display: inline;
+  cursor: pointer;
+  position: relative;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+  border: 1px solid whitesmoke;
+}
+
+td {
+  color: whitesmoke;
+}
+
+#schedule table tbody {
+  border-top: 1px solid whitesmoke;
+}
+
+#schedule table tbody tr {
+  border-bottom: 1px solid whitesmoke;
+}
+
+
+#schedule table tbody tr td {
+  border-right: 1px solid whitesmoke;
+  padding: 15px;
+  height: 100px;
+}
+
+
+#schedule table tbody tr {
+  border-bottom: 1px solid whitesmoke;
+}
+
+.schedule-table {
+  margin-left: 90px;
+}
+
+
+
+
+
+
+/*--------------------skills-section----------------------*/
+
+
+.heading-2 {
+  text-align: center;
+  font-size: 30px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.heading-2 span {
+  text-transform: uppercase;
+  color: crimson;
+}
+
+.skills .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.skills .box-container .box {
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  background: #1a1a1a;
+  margin: 0 15px;
+  padding-top: 8px;
+  transition: .5s linear;
+  margin: 5px;
+
+}
+
+.skills .box-container .box img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.skills .box-container .box h3 {
+  font-size: 13px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  padding: 5px 0;
+  text-transform: uppercase;
+
+}
+
+.skills .box-container .box:hover {
+  background: whitesmoke;
+
+
+}
+
+.skills .box-container .box:hover h3 {
+  color: black;
+
+}
+
+
+
+
+
+
+div.scroll-container {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  margin: 15px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+/*--------------------footer-section----------------------*/
+
+.btn-link{
+  color: whitesmoke;
+}
+
+
+.btn-link:hover{
+  color: #e2b451;
+}
+
+
+
+
+@media screen and (max-width: 400px) {
+  table {
+    margin: 5px;
+  }
+
+  .schedule-table {
+    margin-left: 0px;
+  }
+
+  #schedule table tbody tr td {
+    padding: 5px;
+    font-size: 12px;
+
+  }
+
+  #schedule .filters ul li {
+    display: inline;
+    font-size: 10px;
+    margin-left: 0px;
+    padding: 5px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
